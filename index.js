@@ -2,7 +2,7 @@ const http = require('http');
 const axios = require('axios');
 
 const PORT = process.env.PORT || 3000;
-const TARGET_URL = 'https://gentle-breeze-a250.poonamchouhan076.workers.dev/';
+const TARGET_URL = 'https://prmovies-domain-a250.poonamchouhan076.workers.dev/';
 
 const server = http.createServer(async (req, res) => {
     // CORS headers add karna taaki kahin se bhi access ho sake
